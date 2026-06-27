@@ -1,16 +1,16 @@
 {
   "name": "prochain-proxy",
   "version": "1.0.0",
-  "description": "ProChain Railway proxy for Angel One SmartAPI",
+  "description": "ProChain Railway CORS proxy for Angel One API",
   "main": "server.js",
-  "engines": {
-    "node": ">=18"
-  },
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
